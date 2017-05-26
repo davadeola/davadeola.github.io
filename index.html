@@ -14,6 +14,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
+    <!--for scrolling pages depends on JQuery-->
+  	<script  src="js/easing.js"></script>
+  	<script src="js/scroll.js"></script>
+
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -38,10 +43,10 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="linktxt" href="#about">About Me</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#motto">Motto</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a class="page-scroll"  href="#about">About Me</a></li>
+            <li><a class="page-scroll" href="#projects">Projects</a></li>
+            <li><a class="page-scroll" href="#motto">Motto</a></li>
+            <li><a class="page-scroll" href="#contact">Contact</a></li>
 
 
 
@@ -69,20 +74,55 @@
     <div class="about" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-12 col-lg-12 col-sm-12">
+          <div class="col-md-6 col-lg-6 col-sm-6">
             <h1>ABOUT ME</h1>
             <p>My name is David Abimbola Adeola. I am a programmer trained at Moringa School, Kenya with
                a passion for the code. My interest in programming was ignited during my high school tenure and ever since I just cannot get enough of it.
-               I may be a young freelance programmer but my skills speak for themselves. I am enjoy playing video games, watching and reading comics but above I live the code.
+               I may be a young freelance programmer but my skills speak for themselves. I am enjoy playing video games, watching and reading comics but above all I live the code.
                <strong><em>Surely, life is an algorithm yet to be decoded.</em></strong>  </p>
+
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-6 ">
+            <video src="videos/giphy.mp4" autoplay loop poster="logo.jpg" class="img-rounded">
+
+            </video>
+          </div>
+
+
+              </div>
+
+            </div>
 
           </div>
 
 
+
+    <div class="about2" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 col-sm-12">
+
+            <video class="fullscreen-bg__video" src="videos/Browsing.mp4" autoplay loop poster="img/sgh.png"></video>
+            <h1>My Projects</h1>
+            <div>
+              <table class="table">
+                <tr>
+                  <td class="success"><a href="#"><img src="img/lap1.png" alt=""></a></td>
+                  <td class="danger"><a href="#"><img src="img/ase.png" alt=""></a></td>
+                  <td class="info"><a href="#"><img src="img/gf.png" alt=""></a></td>
+                  <td class="warning"><a href="#"><img src="img/ty.png" alt=""></a></td>
+                </tr>
+              </table>
+
+            </div>
+
+
+          </div>
         </div>
 
       </div>
     </div>
+
 
 
 
