@@ -101,9 +101,11 @@ p{
 
 .header img{
   width: 40%;
-  height: 20%;
+  height: 15%;
   float: inherit;
-  padding-top: 5%;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  margin-bottom: 5%;
   display: block;
   margin-left: 25%;
   margin-right: 25%;
@@ -114,13 +116,14 @@ p{
   height: 600px;
   width: 100%;
   padding: 20px 0 10px;
-  margin-top: 10px ;
+  margin-top: 10%;
+  margin-bottom: 10%;
 
 }
 .about2{
-  height: 600px;
+  height: 400px;
   width: 100%;
-  padding-top: 20px;
+  padding-top: 10px;
   margin-top: 10px ;
   background-image: url(../img/images.jpg);
   background-repeat: no-repeat;
