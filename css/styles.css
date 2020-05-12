@@ -1,0 +1,128 @@
+:root {
+  --primaryColor: #02eaff;
+  --secondaryColor: #02ffff;
+  --primaryDarkColor: #02c7d9;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  margin: 1.5em;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.menu-back {
+  height: 80px;
+  width: 80px;
+  background-color: var(--primaryColor);
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.menu-front {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primaryColor);
+  box-shadow: 4px 4px 10px #02c7d9, -4px -4px 10px #02ffff;
+  cursor: pointer;
+}
+
+.menu {
+  height: 60%;
+  width: 60%;
+  margin: auto;
+  cursor: pointer;
+}
+
+.menu embed {
+  margin: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+.heading-text {
+  margin-left: 7.5em;
+  margin-top: 3.5em;
+}
+
+.heading-text h3 {
+  font-size: 2em;
+  margin: 0;
+  font-weight: 100;
+}
+
+.heading-text h1 {
+  font-size: 10.5rem;
+  margin: 0;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.heading-text h3 span {
+  color: white;
+}
+
+.blue-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  height: 100vw;
+  background-color: var(--primaryColor);
+  width: 55vw;
+}
+
+.cta button {
+  margin-top: 1.5em;
+  height: 2.5em;
+  width: 7.5em;
+  border: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 1em;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+}
+
+
+
+
+.cta a:first-child button{
+  /* background: #02EAFF;
+    color: black; */
+  background: black;
+  color: var(--primaryColor);
+  box-shadow: 6px 5px 15px #02c7d9, -6px -5px 20px #02ffff;
+}
+
+.cta a:last-child button{
+  background: #fefdfd;
+  box-shadow: 4px 4px 15px #02c7d9, -4px -4px 15px #02ffff;
+}
+
+.landing-img embed {
+  position: absolute;
+  top: 3.75em;
+  right: 2em;
+  width: 35%;
+}
